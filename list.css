@@ -7,52 +7,49 @@ body {
 header{
   width: 100%;
   height: 120px;
-  background: linear-gradient(270deg, #cd0d5b, #e95591, #ff0046, #ffffff);
-background-size: 800% 800%;
 
--webkit-animation: AnimationName 12s ease infinite;
--moz-animation: AnimationName 12s ease infinite;
-animation: AnimationName 12s ease infinite;
+  color: black;
 }
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 97%}
-    50%{background-position:100% 4%}
-    100%{background-position:0% 97%}
+h1{
+  font-size: 22px;
 }
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 97%}
-    50%{background-position:100% 4%}
-    100%{background-position:0% 97%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 97%}
-    50%{background-position:100% 4%}
-    100%{background-position:0% 97%}
-}
-
 .container-header {
 
+}
+.user {
+  color: black;
+display: flex;
+flex-direction: row;
+font-size: 20px;
+padding-left: 1em;
+
+
+
+}
+h2{ padding-left: 1em;
+}
+.user img{
+  height: 60px;
+  width: 60px;
 }
   h1{
     color: white;
   margin-top: 5px;
   font-family: 'Open Sans', sans-serif;
 }
-ul {
-  display: flex;
-flex-direction: row;
-justify-content: center;
-list-style-type:  none;
-justify-content: space-around;
-}
-li {
-font-size: 1.3em;
-font-family: 'Open Sans', sans-serif;
-}
+
 
 /*fousseni*/
 
 
+a{
+  text-decoration: none;
+color: black;
+}
+a :hover{
+  color: black;
+  cursor: pointer;
+}
 main {
             min-width: 320px;
             max-width: 800px;
@@ -67,6 +64,7 @@ main {
             border-top: 1px solid #ddd;
             font-family: 'Open Sans', sans-serif;
           }
+
 
           input {
             display: none;
@@ -128,7 +126,7 @@ main {
               padding: 15px;
             }
           }
- 
+
 /*les profil étudiant*/
           .container {
             font-family: 'Libre Baskerville', serif;
@@ -158,20 +156,38 @@ main {
     50%{background-position:100% 72%}
     100%{background-position:0% 29%}
 }
+.color{
+  color:red;
+
+}
+
 .skin{
+
   display: flex;
   justify-content: space-around;
+  font-family: 'Lobster', cursive;
+font-family: 'Chewy', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Mogra', cursive;
+
+
 
 
 }
+.lien{
+  color: black;
+}
+
 h4{
-font-size: 13px;
+  color:white;
   text-align:center;
   border-radius: 5px;
+  font-size: 17px;
 
 }
 
 .box1{
+
   color: white;
   width: 150px;
   height: 60px;
@@ -247,6 +263,24 @@ background-size: 800% 800%;
 -moz-animation: AnimationName 12s ease infinite;
 animation: AnimationName 12s ease infinite;
 
+}
+.box7{
+  color: white;
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  background: linear-gradient(223deg, #e50a94, #ef66bb, #da76d4, #e5a8e1, #e1c0df);
+background-size: 1000% 1000%;
+
+-webkit-animation: AnimationName 10s ease infinite;
+-moz-animation: AnimationName 10s ease infinite;
+animation: AnimationName 10s ease infinite;
+}
+.box8{
+  color: white;
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
 }
 .container::after {
     content: "";
