@@ -1,11 +1,12 @@
+/*sadia*/
 body {
-  margin: 0 auto;
-  padding: 0 auto;
+  margin:0 auto;
+  padding:0 auto;
 
 }
 header{
   width: 100%;
-  height: 110px;
+  height: 120px;
   background: linear-gradient(270deg, #cd0d5b, #e95591, #ff0046, #ffffff);
 background-size: 800% 800%;
 
@@ -126,6 +127,7 @@ main {
 
 /*les profil étudiant*/
           .container {
+            font-family: 'Libre Baskerville', serif;
     border: 2px solid #ccc;
     background: linear-gradient(223deg, #a0a0a0, #f6f6f6, #c9cdd1, #c9cdd1, #c9cdd1);
   background-size: 1000% 1000%;
@@ -152,8 +154,96 @@ main {
     50%{background-position:100% 72%}
     100%{background-position:0% 29%}
 }
+.skin{
+  display: flex;
+  justify-content: space-around;
 
 
+}
+h4{
+font-size: 13px;
+  text-align:center;
+  border-radius: 5px;
+
+}
+
+.box1{
+  color: white;
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  background: linear-gradient(331deg, #1ddc3a, #81d88e, #19952c, #a7ebb2);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 20s ease infinite;
+-moz-animation: AnimationName 20s ease infinite;
+animation: AnimationName 20s ease infinite;
+}
+
+.box2{
+  color: white;
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  background: linear-gradient(296deg, #e04908, #dc7a4f, #da5216, #e90a0a, #f49393);
+background-size: 1000% 1000%;
+
+-webkit-animation: AnimationName 12s ease infinite;
+-moz-animation: AnimationName 12s ease infinite;
+animation: AnimationName 12s ease infinite;
+
+}
+.box3{
+  color: white;
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  background: linear-gradient(301deg, #0fcb9b, #17f0b9, #12e3ae, #b8ebde, #0fb389);
+background-size: 1000% 1000%;
+
+-webkit-animation: AnimationName 12s ease infinite;
+-moz-animation: AnimationName 12s ease infinite;
+animation: AnimationName 12s ease infinite;
+
+}
+.box4{
+  color: white;
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  background: linear-gradient(313deg, #7a9c93, #797e7d, #8bb3ab, #828282);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 12s ease infinite;
+-moz-animation: AnimationName 12s ease infinite;
+animation: AnimationName 12s ease infinite;
+
+}
+.box5{
+  color: white;
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  background: linear-gradient(213deg, #11cfe0, #4bbfc9, #00ebff, #00a6b4, #00ebff);
+background-size: 1000% 1000%;
+
+-webkit-animation: AnimationName 12s ease infinite;
+-moz-animation: AnimationName 12s ease infinite;
+animation: AnimationName 12s ease infinite;
+}
+.box6{
+  color: white;
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  background: linear-gradient(209deg, #0b67f6, #508be7, #97b3de, #67a2fc);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 12s ease infinite;
+-moz-animation: AnimationName 12s ease infinite;
+animation: AnimationName 12s ease infinite;
+
+}
 .container::after {
     content: "";
     clear: both;
@@ -180,5 +270,6 @@ main {
     margin: auto;
     float: none;
     display: block;
+
   }
 }
