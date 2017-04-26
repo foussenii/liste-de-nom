@@ -36,6 +36,7 @@ animation: AnimationName 12s ease infinite;
   h1{
     color: white;
   margin-top: 5px;
+  font-family: 'Open Sans', sans-serif;
 }
 ul {
   display: flex;
@@ -45,7 +46,8 @@ list-style-type:  none;
 justify-content: space-around;
 }
 li {
-
+font-size: 1.3em;
+font-family: 'Open Sans', sans-serif;
 }
 
 /*fousseni*/
@@ -63,10 +65,12 @@ main {
             display: none;
             padding: 20px 0 0;
             border-top: 1px solid #ddd;
+            font-family: 'Open Sans', sans-serif;
           }
 
           input {
             display: none;
+            font-family: 'Open Sans', sans-serif;
           }
 
           label {
@@ -272,4 +276,14 @@ animation: AnimationName 12s ease infinite;
     display: block;
 
   }
+}
+.container-footer {
+  width: 100%;
+  height: 110px;
+  background: linear-gradient(270deg, #cd0d5b, #e95591, #ff0046, #ffffff);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 12s ease infinite;
+-moz-animation: AnimationName 12s ease infinite;
+animation: AnimationName 12s ease infinite;
 }
